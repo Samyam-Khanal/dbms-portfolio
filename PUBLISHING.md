@@ -1,9 +1,9 @@
-# Publish as a private GitHub repository
+# Repository publishing notes
 
-Confirmed destination: `Samyam-Khanal/dbms-portfolio`, **private**.
+Destination: [Samyam-Khanal/dbms-portfolio](https://github.com/Samyam-Khanal/dbms-portfolio).
 
-If automated creation is blocked by browser sign-in, create the empty repository in your usual signed-in browser at [GitHub New Repository](https://github.com/new). Choose your personal account, name it `dbms-portfolio`, choose **Private**, and leave README, license, and gitignore initialization off because this folder supplies the starter content.
+Visibility: **public**, explicitly approved by the owner on 15 October 2026.
 
-Once created, either let the connected GitHub tool upload the files or publish this folder through GitHub Desktop. Add this exact `dbms-portfolio` folder as the repository; do not upload its parent project folder, synced references, validation database, or ZIP archive.
+Only the portfolio folder belongs in this repository. Do not upload its parent project folder, synced references, validation database, or ZIP archive. Review staged files before every push. Keep credentials, personal data, database dumps, and local configuration out of Git, regardless of repository visibility.
 
-Review staged files before publishing. No license is selected automatically; choose one deliberately if you later make this public. Review visibility separately before changing from private to public.
+No license is selected automatically. Choose a license deliberately if you want to grant reuse permissions.
