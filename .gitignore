@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+*.dump
+*.backup
+*.log
+backups/
+data/private/
+.pgpass
+pgpass.conf
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
